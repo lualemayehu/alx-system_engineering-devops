@@ -1,0 +1,2 @@
+#!bin/bash
+ls -Artl | tail -n 10 |sort -rk6M -k7 -k8
