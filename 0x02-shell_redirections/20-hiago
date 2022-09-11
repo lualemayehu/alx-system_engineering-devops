@@ -1,2 +1,2 @@
 #!/bin/bash
-sed '/c/d' | sed '/C/d'
+sed -e '/c/d' -e  '/C/d'
